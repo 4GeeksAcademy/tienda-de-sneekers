@@ -1,8 +1,15 @@
-import React from 'react';
-import { Navbar, Nav, Form, FormControl, Button, Container } from 'react-bootstrap';
-import { FaUser, FaHeart, FaShoppingBag } from 'react-icons/fa';
+import React from "react";
+import {
+  Navbar,
+  Nav,
+  Form,
+  FormControl,
+  Button,
+  Container,
+} from "react-bootstrap";
+import { FaUser, FaHeart, FaShoppingBag } from "react-icons/fa";
 
-const Navbar = () => {
+const NavbarMenu = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -47,5 +54,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
-
+export default NavbarMenu;
