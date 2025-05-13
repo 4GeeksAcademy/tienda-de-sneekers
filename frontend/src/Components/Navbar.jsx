@@ -29,7 +29,7 @@ const NavbarMenu = () => {
             <Nav.Link href="#novedades">Novedades</Nav.Link>
             <Nav.Link href="#ofertas">Ofertas</Nav.Link>
           </Nav>
-          <Form inline className="d-flex">
+          <Form className="d-flex">
             <FormControl
               type="text"
               placeholder="Buscar productos, marcas..."
